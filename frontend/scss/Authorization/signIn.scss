@@ -1,0 +1,102 @@
+.back-sign {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    z-index: 2;
+    background-color: #33384b;
+
+    .sign {
+        width: 400px;
+        height: 400px;
+        margin: 60px auto;
+        background-color: #4f5677;
+        border-radius: 5px;
+        padding-top: 15px;
+    
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 20px;
+            color: white;
+        }
+
+        .form {
+            width: 300px;
+            margin: auto;
+        }
+    
+        .form-label {
+            display: block;
+            color: #c2c4bc;
+            font-size: 12px;
+            margin-bottom: 8px;
+            margin-left: 20px;
+        }
+
+        .form-input {
+            border-radius: 5px;
+            background: #6e738f;
+            width: 100%;
+            padding: 12px 0px 12px 0;
+            font-size: 15px;
+            margin-bottom: 30px;
+            border: none;
+            outline: none;
+            color: white;
+        }
+
+        button {
+            margin-top: 35px;
+            padding: 10px 0 10px 0;
+            font-size: 12px;
+            background: #1059ff;
+            outline: none;
+            color: white;
+            border: none;
+            width: 100%;
+            border-radius: 30px;
+            font-weight: 600;
+
+            &:hover {
+                background: rgb(19, 79, 148);
+                cursor: pointer;
+            }
+        }
+
+        .error {
+            border: 1px double rgb(241, 0, 0);
+        }
+
+        .message {
+            color: rgb(211, 0, 0);
+            text-align: center;
+            font-size: 15px;
+        }
+
+        .green {
+            color: rgb(25, 201, 39);
+        }
+    }
+
+    .white-line {
+        width: 300px;
+        height: 1px;
+        margin: auto;
+        margin-top: 40px;
+        background-color: #7c819e;
+    }
+
+    .close {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 15px;
+        color: white;
+
+        &:hover {
+            cursor: pointer;
+            color: rgb(204, 204, 204);
+        }
+    }
+}

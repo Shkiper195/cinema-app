@@ -1,0 +1,54 @@
+.ourTeam{
+    padding:30px 0 39px 50px;
+    height: 430px;
+
+    @media (max-width: 550px) {
+        padding-top: 150px;
+        height: 650px;
+    }
+
+    h3 {
+        font-size:30px;
+        line-height:1.2em;
+        color:#bfbfbf;
+        margin-bottom:20px;
+        font-family: PALATINO LINOTYPE, sans-serif;
+
+        span {
+            color:#d72a18;
+        }
+    }
+
+    .team {
+        margin-top:-30px;
+    
+        li {
+            width:100%;
+            overflow:hidden;
+            vertical-align:top;
+            line-height:1.714em;
+            padding-top:40px;
+            color: #969696;
+            font-size: 14px;
+
+            @media (max-width: 550px) {
+                padding-top:80px;
+            }
+        }
+    
+        img {
+            float:left;
+            margin:-10px 20px 0 0;
+        }
+    
+        a {
+            color: rgb(207, 207, 207); 
+            text-decoration:none;
+    
+            &:hover {
+                color:#d72a18
+            }
+        }
+    }
+}
+

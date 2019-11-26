@@ -1,0 +1,10 @@
+.team_content {
+  padding: 30px 0 39px 50px;
+  height: 430px; }
+  .team_content h3 {
+    font-size: 30px;
+    line-height: 1.2em;
+    color: #bfbfbf;
+    margin-bottom: 20px; }
+    .team_content h3 span {
+      color: #d72a18; }

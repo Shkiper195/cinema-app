@@ -1,0 +1,25 @@
+@mixin infoBox {
+    background:#000;
+    width:100%;
+    margin-top:-3px;
+}
+
+@mixin inner {
+    
+    h3 {
+        font-size:30px;
+        line-height:1.2em;
+        color:#bfbfbf;
+        margin-bottom:20px;
+
+        span {
+            color:#d72a18;
+        }
+    }
+
+    p {
+        color: #8b8b8b;
+        font-size:14px;
+        line-height:1.5em;
+    }
+}

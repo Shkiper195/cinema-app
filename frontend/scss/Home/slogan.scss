@@ -1,0 +1,70 @@
+.slogan {
+    width:100%;
+    height:322px;
+    position:relative;
+    background:url(images/banner-bg.gif) no-repeat left top;
+    color:#1d1d1d;
+
+    .image {
+        position:absolute;
+        right:-30px;
+        top:-11px;
+        z-index:1;
+        width:572px;
+        height:348px;
+        background:url(images/banner-img.png) no-repeat left top
+    }
+    
+    .slogan-text {
+        padding:36px 0 0 50px;
+        width:320px;
+    
+        h2 {
+            font-size:29px;
+            line-height:1.2em;
+            color:#1d1d1d;
+            text-transform:uppercase;
+            margin-bottom:12px;
+            font-weight: normal;
+    
+            span {
+                display:block;
+                font-size:39px;
+                color:#2c6d9a;
+                font-weight: normal;
+            }
+        }
+    
+        p {
+            font-size:14px;
+            line-height:1.714em;
+            margin-bottom:23px;
+        }
+    }
+    
+    
+    .learn-more {
+        float:left;
+        background:url(images/link1-right.png) no-repeat right top;
+        color:#fff;
+        text-decoration:none;
+        line-height:1em;
+        cursor:pointer;
+    
+        span {
+            float:left;
+            padding:0 5px;
+            background:url(images/link1-left.png) no-repeat left top;
+    
+            &:hover {
+                text-decoration:underline;
+            }
+        }
+    
+        span span {
+            background:url(images/link1-tail.gif) repeat-x left top;
+            padding:8px 15px;
+        }
+    }
+}
+

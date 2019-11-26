@@ -1,0 +1,29 @@
+.white-line {
+  overflow: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 918px;
+  height: 8px;
+  margin-left: 11px;
+  background: url(images/white-line.gif) repeat-x left top;
+  z-index: 1;
+  position: relative; }
+
+.aboutUs_infoBox {
+  background: #000;
+  width: 100%;
+  margin-top: -3px; }
+
+.aboutUs_inner {
+  padding: 28px 50px 40px 50px; }
+  .aboutUs_inner h3 {
+    font-size: 30px;
+    line-height: 1.2em;
+    color: #bfbfbf;
+    margin-bottom: 20px; }
+    .aboutUs_inner h3 span {
+      color: #d72a18; }
+  .aboutUs_inner p {
+    color: #8b8b8b;
+    font-size: 14px;
+    line-height: 1.5em; }

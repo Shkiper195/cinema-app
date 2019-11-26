@@ -1,0 +1,52 @@
+.slogan {
+  width: 100%;
+  height: 322px;
+  position: relative;
+  background: url(images/banner-bg.gif) no-repeat left top;
+  color: #1d1d1d; }
+
+.image {
+  position: absolute;
+  right: -30px;
+  top: -11px;
+  z-index: 100;
+  width: 572px;
+  height: 348px;
+  background: url(images/banner-img.png) no-repeat left top; }
+
+.sloganText {
+  padding: 36px 0 0 50px;
+  width: 320px; }
+  .sloganText h2 {
+    font-size: 29px;
+    line-height: 1.2em;
+    color: #1d1d1d;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    font-weight: normal; }
+    .sloganText h2 span {
+      display: block;
+      font-size: 39px;
+      color: #2c6d9a;
+      font-weight: normal; }
+  .sloganText p {
+    font-size: 14px;
+    line-height: 1.714em;
+    margin-bottom: 23px; }
+
+.link1 {
+  float: left;
+  background: url(images/link1-right.png) no-repeat right top;
+  color: #fff;
+  text-decoration: none;
+  line-height: 1em;
+  cursor: pointer; }
+  .link1 span {
+    float: left;
+    padding: 0 5px;
+    background: url(images/link1-left.png) no-repeat left top; }
+    .link1 span:hover {
+      text-decoration: underline; }
+  .link1 span span {
+    background: url(images/link1-tail.gif) repeat-x left top;
+    padding: 8px 15px; }

@@ -1,0 +1,71 @@
+.movie {
+    padding:28px 50px 40px 50px;
+    height: 240px;
+    color: white;
+
+    .movie-info {
+        float: left;
+        width: 40%;
+        
+        h1 {
+            font-size: 28px;
+            line-height: 2em;
+        }
+
+        h2 {
+            font-size: 12px;
+        }
+
+        h3 {
+            font-size: 18px;
+            line-height:10em;
+        }
+
+        img {
+            width: 50%;
+            float: left;
+            padding-right: 15px;
+        }
+    }
+    
+    ul {
+        float: left;
+        padding: 20px 0 0 40px;
+
+        li {
+            float: left;
+            padding-left:24px;
+            text-align: center;
+            line-height: 2em;
+            font-size: 15px;
+        }
+
+        button {
+            color: white;
+            background: rgba(0, 0, 0, 0);
+            border: 1px solid rgb(255, 255, 255);
+            border-radius: 6px;
+            padding: 10px 24px;
+            font-size: 16px;
+            outline: none;
+    
+            &:hover {
+                background: white;
+                color: rgb(0, 0, 0);
+                cursor: pointer;
+            }
+        }
+    }
+
+    .bottom-line{
+        width:810px;
+        height:1px;
+        float: left;
+        background:rgba(126, 126, 126, 0.555);
+        margin-left:15px;
+        margin-top: 20px;
+    }
+}
+
+    
+

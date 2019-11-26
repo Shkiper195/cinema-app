@@ -1,0 +1,54 @@
+@import "./scss/header";
+@import "./scss/Home/slogan";
+@import "./scss/Home/welcome";
+@import "./scss/Home/freshMovies";
+@import "./scss/footer";
+@import "./scss/About/aboutUs";
+@import "./scss/About/team";
+@import "./scss/Movies/movies";
+@import "./scss/Movies/movie";
+@import "./scss/Movies/booking";
+@import "./scss/contacts";
+@import "./scss/news";
+@import "./scss/Authorization/logIn";
+@import "./scss//Authorization/signIn";
+
+* {margin:0;padding:0}
+
+body {
+    background:#1d1d1d;
+    font-family:Arial,Helvetica,sans-serif;
+    min-width: 990px;
+}
+
+ul, ol {list-style:none}
+
+.tail-top {
+    background:url(images/tail-top.gif) left top repeat-x #1d1d1d
+}
+.tail-bottom {
+    background:url(images/tail-bottom.gif) left bottom repeat-x
+}
+
+.main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.border-left {
+    background:url(images/border-left.gif) repeat-y left top;
+}
+.border-right {
+    background:url(images/border-right.gif) repeat-y right top;
+}
+
+.error-message {
+
+    h1 {
+        color: rgb(235, 235, 235);
+        font-size: 80px;
+        text-align: center;
+        padding: 150px 0px 150px 0;
+    }
+}
+

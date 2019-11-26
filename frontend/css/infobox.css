@@ -1,0 +1,32 @@
+.home_infoBox {
+  background: #000;
+  width: 100%;
+  margin-top: -3px; }
+
+.home_inner {
+  padding: 28px 50px 40px 50px; }
+  .home_inner h3 {
+    font-size: 30px;
+    line-height: 1.2em;
+    color: #bfbfbf;
+    margin-bottom: 20px; }
+    .home_inner h3 span {
+      color: #d72a18; }
+  .home_inner p {
+    color: #8b8b8b;
+    font-size: 14px;
+    line-height: 1.5em; }
+  .home_inner b {
+    color: #e1e1e1;
+    font-weight: normal; }
+
+.img-box {
+  width: 100%;
+  overflow: hidden;
+  line-height: 1.714em;
+  padding: 25px 0 18px 0;
+  color: #8b8b8b;
+  font-size: 14px; }
+  .img-box img {
+    float: left;
+    margin: -10px 20px 0 0; }

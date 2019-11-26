@@ -1,0 +1,17 @@
+.movies {
+  background: #000;
+  width: 100%;
+  margin-top: -3px; }
+  .movies .white-line {
+    margin-top: 2px;
+    width: 918px;
+    height: 6px;
+    margin-left: 11px;
+    background: #efefef;
+    z-index: 1;
+    position: relative; }
+  .movies .comment {
+    color: rgba(201, 201, 201, 0.836);
+    width: 900px;
+    padding: 20px 0px 50px 60px;
+    font-size: 16px; }

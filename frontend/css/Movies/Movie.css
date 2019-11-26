@@ -1,0 +1,45 @@
+.movie {
+  padding: 28px 50px 40px 50px;
+  height: 240px;
+  color: white; }
+  .movie .infoMovie {
+    float: left;
+    width: 40%; }
+    .movie .infoMovie h1 {
+      font-size: 28px;
+      line-height: 2em; }
+    .movie .infoMovie h2 {
+      font-size: 12px; }
+    .movie .infoMovie h3 {
+      font-size: 18px;
+      line-height: 10em; }
+    .movie .infoMovie img {
+      width: 50%;
+      float: left;
+      padding-right: 15px; }
+  .movie ul {
+    float: left;
+    padding: 20px 0 0 40px; }
+    .movie ul li {
+      float: left;
+      padding-left: 24px;
+      text-align: center;
+      line-height: 2em;
+      font-size: 15px; }
+  .movie button {
+    color: white;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 10px 24px;
+    font-size: 16px; }
+    .movie button:hover {
+      background: white;
+      color: black; }
+  .movie .bottom-line {
+    width: 810px;
+    height: 1px;
+    float: left;
+    background: rgba(126, 126, 126, 0.555);
+    margin-left: 15px;
+    margin-top: 20px; }
